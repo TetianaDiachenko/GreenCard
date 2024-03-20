@@ -1,5 +1,11 @@
 @import "fonts";
 @import "reset";
+@import "utils";
 
+body {
+	font-family: $fontFamily;
+	font-size: $fontSize;
+	color: $blackColor;	
+}
 
 
