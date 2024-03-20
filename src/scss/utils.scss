@@ -1,0 +1,25 @@
+// Useful reusable items
+
+$fontFamily: "Montserrat", sans-serif;
+$fontSize: 18px;
+$whiteColor: #FFFFFF;
+$blackColor: #000000;
+$blueColor: #0036A0;
+$lightBlueColor: #417BEB;
+$fontColor: #101828;
+$bgColor: #F4F6F9;
+$maxWidth: 1440px;
+$containerWidth: 1280px;
+
+._container {
+	max-width: $containerWidth;
+	margin: 0px auto;
+}
+
+._maxContainer {
+	max-width: $maxWidth;
+	margin: 0px auto;
+}
+
+
+
