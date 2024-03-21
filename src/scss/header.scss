@@ -52,8 +52,10 @@
 
 	&__item {
 		margin-right: 32px;
-		color: $menuColor;
 		font-weight: 600;
+		&-link {
+			color: $menuColor;
+		}
 	}
 }
 
