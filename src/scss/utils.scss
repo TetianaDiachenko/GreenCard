@@ -22,5 +22,26 @@ $containerWidth: 1280px;
 	margin: 0px auto;
 }
 
+@mixin button($btnHeight, $btnPad, $btnFontSize) { 
+   color: $whiteColor;
+   background: $lightBlueColor;
+   border-radius: 40px;
+   display: inline-flex;
+   align-items: center;
+   justify-content: center;
+   text-align: center;
+   height: $btnHeight;
+   padding: 0px $btnPad;
+   font-size: $btnFontSize;
+   font-weight: 600;
+	box-shadow: 0 3px 18px 0 rgba(0, 0, 0, 0.3);
+   transition: all 0.3s ease 0s;
+      &:hover {
+         color: $whiteColor;
+         background: $blueColor;
+         transition: all 0.3s ease 0s;
+		}
+}
+
 
 
