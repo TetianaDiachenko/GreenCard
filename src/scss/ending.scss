@@ -125,15 +125,17 @@
 		@media (min-width: 992px) {
 			padding: 0px;
 			width: 50%;
-			&:nth-child(2) {
-				padding-left: 96px;
-			}
 		}
+
 		img {
 			width: 100%;
 		}
 	}
 }
 
-
+._left {
+	@media (min-width: 992px) {
+		margin-left: 150px;
+	}
+}
 
