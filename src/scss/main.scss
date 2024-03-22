@@ -75,8 +75,11 @@
 			justify-content: flex-start;
 		}
 		&-link {
-			@include button(56px, 124px, 16px);
-			box-shadow: 0 4px 25px 0 rgba(0, 0, 0, 0.3);
+			@include button(56px, 76px, 16px);
+			@media (min-width: 375px) {
+				@include button(56px, 123px, 16px);
+				box-shadow: 0 4px 25px 0 rgba(0, 0, 0, 0.3);
+			}	
 			@media (min-width: 992px) {
 				@include button(56px, 33px, 16px);
 				box-shadow: 0 4px 25px 0 rgba(0, 0, 0, 0.3);
