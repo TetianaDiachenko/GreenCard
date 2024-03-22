@@ -24,6 +24,15 @@ $containerWidth: 1280px;
 	margin: 0px auto;
 }
 
+._red {
+	color:#FF0000;
+}
+
+@mixin text-red {
+	color:#FF0000;
+}
+
+
 @mixin button($btnHeight, $btnPad, $btnFontSize) { 
    color: $whiteColor;
    background: $lightBlueColor;
@@ -44,6 +53,7 @@ $containerWidth: 1280px;
          transition: all 0.3s ease 0s;
 		}
 }
+
 
 
 
