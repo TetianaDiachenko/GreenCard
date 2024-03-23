@@ -34,11 +34,14 @@
 
 	&__body {
 		margin-left: 16px;
+		padding-bottom: 56px;
 		@media (min-width: 744px) {
 			margin-left: 20px;
+			padding-bottom: 117px;
 		}
 		@media (min-width: 992px) {
 			margin-left: 32px;
+			padding-bottom: 75px;
 		}
 	}
 }
