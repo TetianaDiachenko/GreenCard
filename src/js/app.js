@@ -50,7 +50,32 @@ function popupClose(popupActive) {
 	}
 }
 
-// import Swiper from 'swiper';
-// import { Navigation, Pagination } from 'swiper/modules'; // this lines from documentation of swiper
+// Swiper slider
 
-// const swiper = new Swiper(...);
+const swiper = new Swiper('.swiper', {
+	loop: true,
+	speed: 400,
+	navigation: {
+	  nextEl: '.slider__nav-next',
+	  prevEl: '.slider__nav-prev'
+	},
+	slidesPerView: 3,
+	watchOverflow: false,
+	slideToClickedSlide: true,
+	breakpoints: {
+		320: {
+			slidesPerView: 1.2,
+			spaceBetween: 24,
+		},
+		744: {
+			slidesPerView: 2.3,
+		},
+		992: {
+			slidesPerView: 3,
+			spaceBetween: 32,
+		}
+ }
+});
+
+
+
