@@ -70,12 +70,16 @@
 		}
 	}
 	&__button {	
+		display: flex;
+		justify-content: center;
 		@media (min-width: 992px) {
-			display: flex;
 			justify-content: flex-start;
 		}
 		&-link {
-			@include button(56px, 76px, 16px);
+		@include button(56px, 77px, 16px);
+		@media (min-width: 320px) {
+			@include button(56px, 97px, 16px);
+		}
 			@media (min-width: 375px) {
 				@include button(56px, 123px, 16px);
 				box-shadow: 0 4px 25px 0 rgba(0, 0, 0, 0.3);
