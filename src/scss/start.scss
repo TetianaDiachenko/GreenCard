@@ -21,7 +21,7 @@
 		}
 
 		&-button {
-			@include button(56px, 77px, 16px);
+			@include button(56px, 76px, 16px);
 			@media (min-width: 320px) {
 				@include button(56px, 97px, 16px);
 			}
