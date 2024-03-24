@@ -582,7 +582,7 @@ body {
   justify-content: center;
   text-align: center;
   height: 56px;
-  padding: 0px 77px;
+  padding: 0px 76px;
   font-size: 16px;
   font-weight: 600;
   box-shadow: 0 3px 18px 0 rgba(0, 0, 0, 0.3);
@@ -683,9 +683,13 @@ body {
   font-weight: 500;
   font-size: 13px;
   line-height: 1.5;
-  padding: 0px 10px;
+  padding: 10px;
   height: 145px;
   overflow: auto;
+}
+
+.slider__slide-text p {
+  height: 100%;
   display: flex;
   justify-content: center;
   align-items: center;
