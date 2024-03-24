@@ -78,7 +78,7 @@ const swiper = new Swiper('.swiper', {
 	  prevEl: '.slider__nav-prev'
 	},
 	slidesPerView: 3,
-	watchOverflow: false,
+	watchOverflow: true,
 	slideToClickedSlide: true,
 	breakpoints: {
 		320: {
