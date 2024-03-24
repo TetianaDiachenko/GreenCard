@@ -444,6 +444,11 @@ body {
   padding: 24px 0px 29px;
 }
 
+.main__button {
+  display: flex;
+  justify-content: center;
+}
+
 .main__button-link {
   color: #FFFFFF;
   background: #417BEB;
@@ -453,7 +458,7 @@ body {
   justify-content: center;
   text-align: center;
   height: 56px;
-  padding: 0px 76px;
+  padding: 0px 77px;
   font-size: 16px;
   font-weight: 600;
   box-shadow: 0 3px 18px 0 rgba(0, 0, 0, 0.3);
@@ -577,7 +582,7 @@ body {
   justify-content: center;
   text-align: center;
   height: 56px;
-  padding: 0px 76px;
+  padding: 0px 77px;
   font-size: 16px;
   font-weight: 600;
   box-shadow: 0 3px 18px 0 rgba(0, 0, 0, 0.3);
@@ -728,6 +733,52 @@ body {
   font-family: "Montserrat", sans-serif;
   font-size: 18px;
   color: #000000;
+}
+
+@media (min-width: 320px) {
+  .main__button-link {
+    color: #FFFFFF;
+    background: #417BEB;
+    border-radius: 30px;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    height: 56px;
+    padding: 0px 97px;
+    font-size: 16px;
+    font-weight: 600;
+    box-shadow: 0 3px 18px 0 rgba(0, 0, 0, 0.3);
+    transition: all 0.3s ease 0s;
+  }
+
+  .main__button-link:hover {
+    color: #FFFFFF;
+    background: #0036A0;
+    transition: all 0.3s ease 0s;
+  }
+
+  .start__header-button {
+    color: #FFFFFF;
+    background: #417BEB;
+    border-radius: 30px;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    height: 56px;
+    padding: 0px 97px;
+    font-size: 16px;
+    font-weight: 600;
+    box-shadow: 0 3px 18px 0 rgba(0, 0, 0, 0.3);
+    transition: all 0.3s ease 0s;
+  }
+
+  .start__header-button:hover {
+    color: #FFFFFF;
+    background: #0036A0;
+    transition: all 0.3s ease 0s;
+  }
 }
 
 @media (min-width: 375px) {
@@ -1052,7 +1103,6 @@ body {
   }
 
   .main__button {
-    display: flex;
     justify-content: flex-start;
   }
 
