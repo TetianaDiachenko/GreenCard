@@ -1,0 +1,114 @@
+.stats {
+	background-color: $lightBlueColor;
+	padding: 50px 33px 78px;
+	@media (min-width: 744px) {
+		padding: 50px 49px 69px;
+	}
+	@media (min-width: 992px) {
+		padding: 69px 0px 68px;
+	}
+	&__header {
+		text-align: center;
+		color: $whiteColor;
+	}
+	&__header-text {
+		font-weight: 500;
+		font-size: 16px;
+		line-height: 1.5;
+		@media (min-width: 744px) {
+			display: inline-block;
+		}
+		@media (min-width: 992px) {
+			font-size: 20px;
+			line-height: 1.2;				
+		}
+	}
+	&__header-title {
+		font-weight: 700;
+		font-size: 24px;
+		line-height: 1.5;
+		padding: 16px 0px 40px 0px;
+		@media (min-width: 744px) {
+			padding: 16px 0px 51px 0px;
+			line-height: 0.75;	
+
+		}
+		@media (min-width: 992px) {
+			font-size: 32px;
+			padding: 16px 0px 60px 0px;		
+		}
+	}
+	&__header-hidden {
+		display: none;
+		@media (min-width: 744px) {
+			display: inline-block;
+		}
+	}
+	&__body {
+		display: grid;
+		grid-template-columns: repeat(auto-fill, minmax(270px, 309px));
+		align-items: center;
+		justify-content: center;
+		row-gap: 14px;
+		@media (min-width: 744px) {
+			column-gap: 28px;
+		}
+		@media (min-width: 992px) {	
+			column-gap: 14px;
+		}
+	}
+	&__article {
+		border-radius: 20px;
+		background-color: $whiteColor;
+		width: 100%;
+	}
+
+	&__article-image {
+		height: 202px;
+		border-radius: 20px 20px 0px 0px;
+		background-size: cover;
+		background-repeat: no-repeat;	
+	}
+}
+.article-img1 {
+	background-image: url('@img/Frame 1.jpg');
+}
+.article-img2 {
+	background-image: url('@img/Frame 2.jpg');
+}
+.article-img3 {
+	background-image: url('@img/Frame 3.jpg');
+}
+.article-img4 {
+	background-image: url('@img/Frame 4.jpg');
+}
+.article {
+	margin: 14px 18px 27px 14px;
+	&__title {
+		font-weight: 600;
+		font-size: 20px;
+		line-height: 1.2;
+		padding-bottom: 5px;
+	}
+
+	&__salary {
+		font-weight: 600;
+		font-size: 16px;
+		line-height: 1.5;
+		color: #00CA39;
+		padding-bottom: 10px;
+	}
+
+	&__info {
+		font-size: 15px;
+		line-height: 1.6;
+		height: 152px;
+		overflow: auto;
+	}
+}
+._green {
+	color: #00CA39;
+	@media (min-width: 992px) {
+		color: $whiteColor;
+	}
+}
