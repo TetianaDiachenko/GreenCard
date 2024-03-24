@@ -729,6 +729,53 @@ body {
   background-size: cover;
 }
 
+.about {
+  padding: 49px 0px 7px;
+}
+
+.about__part2 {
+  padding-top: 75px;
+}
+
+.about__header-title {
+  padding-bottom: 20px;
+  padding-left: 16px;
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 1.8;
+  letter-spacing: -0.57px;
+}
+
+.about__header-subtitle {
+  display: none;
+}
+
+.about__body {
+  width: 100%;
+}
+
+.about__body-info {
+  padding: 0px 16px 30px;
+  font-family: "Inter", sans-serif;
+  line-height: 1.6;
+}
+
+.about__body-info p:first-child {
+  padding-bottom: 20px;
+}
+
+.about__body-image img {
+  width: 100%;
+}
+
+.img-general {
+  display: block;
+}
+
+.img-tab {
+  display: none;
+}
+
 body {
   font-family: "Montserrat", sans-serif;
   font-size: 18px;
@@ -969,6 +1016,39 @@ body {
 
   .no-webp .slider__slide-three {
     background-image: url("@img/Card3.jpg"); }
+
+  .about {
+    padding: 0px 0px 82px;
+  }
+
+  .about__header-title {
+    padding-left: 21px;
+  }
+
+  .about__body-info {
+    font-family: "Montserrat", sans-serif;
+    color: rgba(0, 0, 0, 0.8);
+  }
+
+  .about__body-info p {
+    display: inline;
+  }
+
+  .about__body-info p:first-child {
+    padding-bottom: 0px;
+  }
+
+  .about__body-info {
+    padding: 0px 21px 30px;
+  }
+
+  .img-general {
+    display: none;
+  }
+
+  .img-tab {
+    display: block;
+  }
 }
 
 @media (min-width: 768px) {
@@ -1289,6 +1369,69 @@ body {
     width: 384px;
     height: 504px;
     background-size: unset;
+  }
+
+  .about {
+    padding: 96px 0px 0px;
+  }
+
+  .about__part2 {
+    padding-top: 96px;
+  }
+
+  .about__header-title {
+    padding-left: 36px;
+    font-size: 36px;
+  }
+
+  .about__header-subtitle {
+    display: block;
+    padding-left: 36px;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 1.5;
+    letter-spacing: 0.4px;
+  }
+
+  .about__body {
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: space-between;
+    padding: 64px 36px 96px 36px;
+  }
+
+  .about__body-info {
+    font-size: 36px;
+    line-height: 1.2;
+    font-weight: 500;
+    width: 46%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+
+  .about__body-info p {
+    display: block;
+  }
+
+  .about__body-info p:first-child {
+    padding-bottom: 20px;
+  }
+
+  .about__body-info {
+    padding: 0px;
+  }
+
+  .about__body-image {
+    width: 48%;
+  }
+
+  .img-general {
+    display: block;
+  }
+
+  .img-tab {
+    display: none;
   }
 }
 
