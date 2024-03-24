@@ -67,16 +67,18 @@
 		&-text {
 			backdrop-filter: blur(24px);
 			background: rgba(0, 0, 0, 0.3);
-			// font-family: $second-family;
 			font-weight: 500;
 			font-size: 13px;
 			line-height: 1.5;
-			padding: 0px 10px;
+			padding: 10px;
 			height: 145px;
 			overflow: auto;
-			display: flex;
-			justify-content: center;
-			align-items: center;
+			p {
+				height: 100%;
+				display: flex;
+				justify-content: center;
+				align-items: center;
+			}
 			@media (min-width: 1200px) {
 				font-size: 18px;
 				height: 190px;
