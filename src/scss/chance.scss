@@ -1,0 +1,126 @@
+.chance {
+	padding: 45px 0px 83px;
+	@media (min-width: 744px) {
+		padding: 61px 32px 194px 20px;
+	}
+	@media (min-width: 992px) {
+		padding: 96px 32px;
+		display: flex;
+		justify-content: space-between;
+	}
+	&__info {
+		padding: 0 16px 45px;
+		@media (min-width: 744px) {
+			padding: 0 32px 45px;
+		}
+		@media (min-width: 992px) {
+			padding: 0px 0px 0px 32px;
+			display: flex;
+			flex-direction: column;
+			justify-content: center;
+			width: 51%;
+		}
+	}
+
+	&__title {
+		color: $fontColor;
+		font-weight: 600;
+		letter-spacing: -0.057px;
+		font-size: 30px;
+		line-height: 1.3;
+		padding-bottom: 24px;
+		@media (min-width: 744px) {
+			text-align: center;
+		}
+		@media (min-width: 992px) {
+			font-size: 48px;
+			line-height: 1.2;
+			text-align: start;
+		}
+	}
+
+	&__subtitle {
+		color: #475467;
+		line-height: 1.6;
+		padding-bottom: 29px;
+		@media (min-width: 992px) {
+			padding-right: 45px;
+		}		
+		&-red {
+			@include text-red;
+			@media (min-width: 992px) {
+				color: #475467;
+				font-size: 20px;
+				line-height: 1.5;
+				padding-bottom: 48px;
+			}
+		}
+	}
+
+	&__button {
+		display: flex;
+		justify-content: center;
+		@media (min-width: 992px) {
+			justify-content: flex-start;
+		}
+		&-link {
+		@include button(56px, 76px, 16px);
+		@media (min-width: 320px) {
+			@include button(56px, 97px, 16px);
+		}
+			@media (min-width: 375px) {
+				@include button(56px, 123px, 16px);
+				box-shadow: 0 4px 25px 0 rgba(0, 0, 0, 0.3);
+			}	
+			@media (min-width: 992px) {
+				@include button(56px, 33px, 16px);
+				box-shadow: 0 4px 25px 0 rgba(0, 0, 0, 0.3);
+			}
+		}
+	}
+	&__img-wrapper {
+		width: 100%;
+		overflow: hidden;
+	}
+	&__images {
+		position: relative;
+		display: grid;
+		grid-template-rows: 1fr 1fr;
+		grid-template-columns: repeat(6, 67px);
+		justify-content: center;		
+		column-gap: 4px;
+		row-gap: 13px;
+		@media (min-width: 744px) {
+			grid-template-columns: repeat(6, 90px);
+			column-gap: 6px;
+			row-gap: 16px;
+		}
+	}
+
+	&__image {
+		width: 190%;
+		&-one {
+			grid-column: 2/3;
+			grid-row: 1;
+			align-self: end;
+		}
+		&-two {
+			grid-column: 4/5;
+			grid-row: 1;
+		}
+		&-three {
+			grid-column: 1/2;
+			grid-row: 2;		
+		}
+		&-four {
+			grid-column: 3/4;
+			grid-row: 2;		
+			
+		}
+		&-five {
+			grid-column: 5/6;
+			grid-row: 2;			
+		}
+	}
+}
+
