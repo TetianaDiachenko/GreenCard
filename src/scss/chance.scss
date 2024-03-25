@@ -98,7 +98,9 @@
 	}
 
 	&__image {
-		width: 190%;
+		img {
+			width: 190%;
+		}
 		&-one {
 			grid-column: 2/3;
 			grid-row: 1;
