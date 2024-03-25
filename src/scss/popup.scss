@@ -48,7 +48,7 @@
 
 	&__content-image {
 		@media (min-width: 744px) {
-			background-image: url(@img/Frame_popup_tab.png);    
+			background-image: url('@img/Frame_popup_tab.png');    
 			background-repeat: no-repeat;
 			background-repeat: no-repeat;
 			background-size: 102%;
@@ -58,7 +58,7 @@
 			height: 455px;
 		} 
 		@media (min-width: 992px) {
-			background-image: url(@img/Frame_popup.png);  
+			background-image: url('@img/Frame_popup.png');  
 			background-size: 181%;
 			background-position: 100% 25%;
 			width: 335px;
