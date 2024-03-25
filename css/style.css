@@ -924,7 +924,7 @@ body {
   transition: all 0.3s ease 0s;
 }
 
-.chance__img-wrapper {
+.chance__wrapper {
   width: 100%;
   overflow: hidden;
 }
