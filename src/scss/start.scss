@@ -39,7 +39,7 @@
 	&__body-image {	
 		height: 380px;
 		width: 100%;
-		background-image: url(@img/start_mob.png);
+		background-image: url('@img/start_mob.png');
 		background-repeat: no-repeat;
 		background-size: cover;
 		@media (min-width: 744px) {
