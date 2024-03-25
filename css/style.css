@@ -596,7 +596,7 @@ body {
 }
 
 .no-webp .start__body-image {
-  background-image: url(@img/start_mob.png); }
+  background-image: url("@img/start_mob.png"); }
 
 .start__body-image {
   height: 380px;
