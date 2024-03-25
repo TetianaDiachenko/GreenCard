@@ -813,6 +813,8 @@ body {
   align-items: center;
   justify-content: center;
   row-gap: 14px;
+  -moz-column-gap: 14px;
+       column-gap: 14px;
 }
 
 .stats__article {
