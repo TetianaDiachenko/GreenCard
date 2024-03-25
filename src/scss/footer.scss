@@ -1,0 +1,94 @@
+.footer {
+	padding-bottom: 162px;
+
+	@media (min-width: 744px) {
+		padding-bottom: 94px;
+
+		@media (min-width: 992px) {
+			padding-bottom: 107px;
+		}
+	}
+
+	&__wrapper {
+		background-color: #f7f7f7;
+		padding: 64px 16px 48px;
+
+		@media (min-width: 992px) {
+			background-color: $whiteColor;
+			padding: 64px 32px 48px;
+		}
+	}
+
+	&__logo {
+		width: 265px;
+
+		img {
+			width: 100%;
+		}
+	}
+
+	&__info {
+		font-weight: 600;
+		font-size: 14px;
+		line-height: 2.7;
+		color: #101828;
+
+		@media (min-width: 992px) {
+			line-height: 1.7;
+		}
+
+		p {
+			padding: 32px 0px 64px;
+
+			@media (min-width: 744px) {
+				padding: 32px 0px 37px;
+			}
+
+			@media (min-width: 992px) {
+				padding: 32px 0px 64px;
+			}
+		}
+
+	}
+
+	&__info-blue {
+		color: #2C83EC;
+	}
+
+	&__bottom {
+		height: 56px;
+		border-top: 1px solid transparent;
+		display: flex;
+		justify-content: space-between;
+		align-items: end;
+		@media (min-width: 744px) {
+		}
+		@media (min-width: 992px) {
+		border-top: 1px solid #1019282e;
+		}
+	}
+
+	&__year {
+		font-family: $second-family;
+		font-size: 16px;
+		line-height: 1.5;
+		color: #667085;}
+
+	&__social {
+		display: flex;
+		column-gap: 24px;
+	}
+}
+
+.icon-box {
+	width: 24px;
+	height: 24px;
+
+	img {
+		width: 100%;
+		transition: all 0.3s ease 0s;
+		&:hover {
+			filter: invert(0%) sepia(9%) saturate(915%) hue-rotate(7deg) brightness(102%) contrast(101%);
+		}
+	}
+}
