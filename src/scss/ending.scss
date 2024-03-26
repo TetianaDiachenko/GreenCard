@@ -1,4 +1,7 @@
 .ending {
+		background-color: #f7f7f7;
+	&__container {
+	}
 	&__header {
 		width: 100%;
 		text-align: center;
@@ -54,27 +57,13 @@
 }
 
 .program {
-	padding-bottom: 94px;
-	@media (min-width: 744px) {
-		padding-bottom: 80px;
-	}
 	@media (min-width: 992px) {
-		padding-bottom: 60px;
+		// padding-bottom: 60px;
 		display: flex;
 		flex-direction: row-reverse;
 		width: 100%;
 		&:nth-child(2) {
 			flex-direction: row;
-		}
-	}
-
-	&:last-child {
-		padding-bottom: 70px;
-		@media (min-width: 744px) {
-			padding-bottom: 123px;
-		}
-		@media (min-width: 992px) {
-			padding-bottom: 67px;
 		}
 	}
 

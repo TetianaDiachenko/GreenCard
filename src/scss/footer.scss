@@ -1,23 +1,10 @@
 .footer {
-	padding-bottom: 162px;
-
-	@media (min-width: 744px) {
-		padding-bottom: 94px;
-
-		@media (min-width: 992px) {
-			padding-bottom: 107px;
-		}
-	}
-
-	&__wrapper {
-		background-color: #f7f7f7;
+	background-color: #f7f7f7;
 		padding: 64px 16px 48px;
 
 		@media (min-width: 992px) {
-			background-color: $whiteColor;
 			padding: 64px 32px 48px;
 		}
-	}
 
 	&__logo {
 		width: 265px;

@@ -13,7 +13,7 @@ export const svgSprive = () => {
 				stack: {
 					sprite: `../icons/icons.svg`,
 					//Creat the page with all icons
-					example: true
+					example: false
 				}
 			},
 		}))
